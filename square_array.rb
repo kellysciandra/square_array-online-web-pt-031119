@@ -1,7 +1,10 @@
 def square_array(array)
   new_array = []
+  counter = 0
     array.each do |num|
-    square = num * num
-  new_array << square 
+    variable = num * num
+  counter += 1 
+  new_array << variable
 end
+puts new_array 
 end
